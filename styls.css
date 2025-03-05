@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.title {
+  color: blueviolet;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(215, 132, 231);
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+
+}
+
+.list {
+
+  display: flex;
+
+}
+
+.item {
+    background-color: rgb(214, 190, 236);
+    border: 2px rgb(245, 175, 175) solid;
+    border-radius: 8%;
+    margin: 10px;
+    padding: 20px;
+    list-style-type: none;
+    width: 100px ;
+    box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}

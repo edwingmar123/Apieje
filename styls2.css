@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.title {
+  color: blueviolet;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+}
+
+.item {
+    padding: 15px;
+    list-style: none;
+}
+
+.img {
+    width: 200px;
+}
+
