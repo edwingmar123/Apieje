@@ -7,5 +7,8 @@ const port = process.env.PORT || 3001;
 server.use(middlewares);
 server.use(router);
 server.listen(3001, () => {
-    console.log("JSON Server is running");
+    server.listen(port, () => {
+        console.log(`JSON Server is running on port ${port}`);
+    });
+    
 });
